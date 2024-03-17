@@ -14,7 +14,8 @@ import android.widget.TextView;
 /* renamed from: qc  reason: default package */
 /* loaded from: classes.dex */
 @SuppressLint("AppCompatCustomView")
-public class qc extends Button implements kp {
+public class qc extends Button {
+    public static /* synthetic */ int a;
     public final qb b;
     private final rg c;
 
