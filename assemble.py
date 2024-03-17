@@ -13,7 +13,7 @@ def main():
     gradlew_cmd.run()
 
     target_apk_dir = os.environ['HOME'] + "/workspace/GoogleCamera_7.2.018.281779528-56486313"
-    target_smali_files = ["kp.smali", "qc.smali"]
+    target_smali_files = ["kp.smali", "qc.smali", "rh.smali"]
 
     with tempfile.TemporaryDirectory() as tmp:
         baksmali_cmd = baksmali.BaksmaliCmd()

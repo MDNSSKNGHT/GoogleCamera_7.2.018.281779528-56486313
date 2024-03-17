@@ -16,7 +16,8 @@ import android.widget.TextView;
 /* renamed from: rh  reason: default package */
 /* loaded from: classes2.dex */
 @SuppressLint("AppCompatCustomView")
-public class rh extends TextView implements kp {
+public class rh extends TextView {
+    public static /* synthetic */ int a;
     private final qb b;
     private final rg c;
 
